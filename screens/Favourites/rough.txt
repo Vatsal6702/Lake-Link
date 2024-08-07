@@ -1,0 +1,51 @@
+<TouchableOpacity onPress={gotoBigLake}>
+                    <View style={{ paddingLeft: 7, backgroundColor: '#101010', flexDirection: 'row', borderRadius: 15, paddingTop: 15 }}>
+                        <Image source={require('./Image.png')} style={styles.item} />
+
+                        <View style={{ flexDirection: 'column', paddingLeft: 23 }}>
+
+                            <TouchableOpacity >
+                                <Image source={require('./heart.png')} style={styles.like} />
+                            </TouchableOpacity>
+
+
+
+                            <Text style={styles.itemtxt}>High Mill lake</Text>
+
+                            <Text style={styles.itemtxt2}>16420 Saint-Christophe, Brigueuil</Text>
+                            <Text style={styles.itemtxt2}> Nouvelle-Aquitaine, 16420</Text>
+                            <Text style={styles.itemtxt3}> Size: 20 Acres<Text>                Anglers: 7</Text></Text>
+
+
+                        </View>
+
+                    </View>
+                </TouchableOpacity>
+
+                <View style={{ backgroundColor: 'black', paddingTop: 15 }}></View>
+
+
+                {/* Lake 5 */}
+                <TouchableOpacity>
+                    <View style={{ paddingLeft: 7, backgroundColor: '#101010', flexDirection: 'row', borderRadius: 15, paddingTop: 15 }}>
+                        <Image source={require('./Lake5.png')} style={styles.item} />
+
+                        <View style={{ flexDirection: 'column', paddingLeft: 23 }}>
+
+                            <TouchableOpacity >
+                                <Image source={require('./heart.png')} style={styles.like} />
+                            </TouchableOpacity>
+
+
+
+                            <Text style={styles.itemtxt}>Etang Lagon</Text>
+
+                            <Text style={styles.itemtxt2}>Gravon, Gravon, Île-de-France,</Text>
+                            <Text style={styles.itemtxt2}>77118</Text>
+                            <Text style={styles.itemtxt3}>Size: 5 Acres<Text>                   Anglers: 2</Text></Text>
+
+
+                        </View>
+
+                    </View>
+                </TouchableOpacity>
